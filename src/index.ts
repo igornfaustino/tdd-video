@@ -1,3 +1,5 @@
 export const getPrice = (enterDate: Date, exitDate: Date) => {
-	return 2;
+	const diffInMs = exitDate.getTime() - enterDate.getTime();
+	const diffInHours = diffInMs / (1000 * 60 * 60);
+	return diffInHours;
 };
