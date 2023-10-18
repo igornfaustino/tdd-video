@@ -1,1 +1,3 @@
-console.log('Hello World');
+export const getPrice = (enterDate: Date, exitDate: Date) => {
+	return 2;
+};
